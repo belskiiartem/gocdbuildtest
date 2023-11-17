@@ -25,8 +25,7 @@ pipelines:
             tasks:
             - exec:
                 arguments:
-                - docker
                 - build
                 - .
-                command: 'CMD:'
+                command: 'docker'
                 run_if: passed
